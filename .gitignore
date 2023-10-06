@@ -1,3 +1,9 @@
+# Dotenv file
+.env
+
+# .venv
+.venv/
+
 # Compiler files
 cache/
 out/
@@ -9,6 +15,3 @@ out/
 
 # Docs
 docs/
-
-# Dotenv file
-.env
