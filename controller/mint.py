@@ -11,7 +11,7 @@ parser.add_argument(
     "--gas-price", default="110gwei", help="Gas price for the transaction"
 )
 parser.add_argument("contract_address", help="Contract address to interact with")
-parser.add_argument("--function_name", help="Function to call on the contract")
+parser.add_argument("--function_name", default="mint(address,uint256)", help="Function to call on the contract")
 parser.add_argument("recipient_address", help="Recipient address for minting")
 parser.add_argument(
     "mint_amount_ethers", type=Decimal, help="Amount to mint (in ethers)"
